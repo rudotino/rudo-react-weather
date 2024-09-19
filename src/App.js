@@ -12,6 +12,7 @@ function App() {
         <a
           href="https://github.com/rudotino/rudo-react-weather"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>

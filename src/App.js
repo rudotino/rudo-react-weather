@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       {" "}
       <h1> WeatherApp </h1>
+      <h2>Hello weather</h2>
       <footer>
         This project was coded by Rudo Tino and is{" "}
         <a

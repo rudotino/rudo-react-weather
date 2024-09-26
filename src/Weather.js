@@ -5,7 +5,7 @@ export default function Weather() {
   return (
     <div className="Weather">
       <form>
-        <div classname="row">
+        <div className="row">
           <div className="col-9">
             <input
               type="Search"
@@ -15,11 +15,7 @@ export default function Weather() {
             />
           </div>
           <div className="col-3">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary w-80"
-            />
+            <input type="submit" value="Search" className="btn btn-primary" />
           </div>
         </div>
       </form>
@@ -34,7 +30,6 @@ export default function Weather() {
             <img
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="Mostly Sunny"
-              className="float-left"
             />
             <div>
               <span className="temperature">31</span>

@@ -6,7 +6,7 @@ export default function Weather() {
     <div className="Weather">
       <form>
         <div classname="row">
-          <div className="col-8">
+          <div className="col-9">
             <input
               type="Search"
               placeholder="Enter a city..."
@@ -14,11 +14,11 @@ export default function Weather() {
               autoFocus="on"
             />
           </div>
-          <div className="col-4">
+          <div className="col-3">
             <input
               type="submit"
               value="Search"
-              className="btn btn-primary w-100"
+              className="btn btn-primary w-80"
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Weather() {
               alt="Mostly Sunny"
               className="float-left"
             />
-            <div className="float-left">
+            <div>
               <span className="temperature">31</span>
               <span className="unit">°C</span>
             </div>

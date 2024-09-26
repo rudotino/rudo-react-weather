@@ -22,14 +22,14 @@
   display: inline-block;
 }
 
-.Weather temperature {
+.temperature {
   font-weight: bold;
   color: black;
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
 }
-.Weather unit {
+.unit {
   font-size: 16px;
   font-weight: 400;
   position: relative;

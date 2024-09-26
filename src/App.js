@@ -7,6 +7,7 @@ function App() {
       {" "}
       <h1> WeatherApp </h1>
       <h2>Hello weather</h2>
+      <button className="btn btn-primary">Hello</button>
       <footer>
         This project was coded by Rudo Tino and is{" "}
         <a

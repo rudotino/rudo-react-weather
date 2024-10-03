@@ -10,11 +10,11 @@ export default function Weather(props) {
     console.log(response.data);
     setWeatherData({
       temperature: response.data.temperature.current,
-      //humidity: response.data.main.humidity,
+      humidity: response.data.temperature.humidity,
       date: new Date(response.data.time * 1000),
       description: response.data.condition.description,
       iconUrl: response.data.condition.icon_url,
-      // iconURL: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      icon_url: `https://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
       wind: response.data.wind.speed,
       city: response.data.city,
       ready: true,
